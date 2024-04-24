@@ -28,8 +28,7 @@ is_executable = "1"
 nom = "7"
 derive-new = "0.6"
 rust-embed = { version = "8", features = [
-    "debug-embed",
-    "compression", # must clean build after updating binaries
+    "debug-embed"
 ] }
 which = "6"
 getopts = "0.2"
